@@ -1,0 +1,25 @@
+05/30/2020 09:53:27 pm: FAILED INSERT: City name is required Make year is required Transmission type is required 
+05/30/2020 09:53:47 pm: FAILED INSERT: Only numbers allowed Transmission type is required 
+05/30/2020 09:54:06 pm: SUCCEEDED INSERT INTO Cars VALUES (101,'Wollongong','Suzuki','2009','Automatic','NSW');
+05/30/2020 09:55:16 pm: SUCCEEDED UPDATE Cars SET City ='Newcastle', Make ='Mazda',Year ='2001',Transmission='Automatic',STATE='NSW' WHERE ID=1;
+05/30/2020 09:55:48 pm: SUCCEEDED DELETE FROM Cars WHERE ID =101;
+05/30/2020 10:08:44 pm: FAILED INSERT: City name is required Make year is required Transmission type is required 
+05/30/2020 10:08:59 pm: FAILED INSERT: Make year is required Transmission type is required 
+05/30/2020 10:09:11 pm: FAILED INSERT: Only numbers allowed Transmission type is required 
+05/30/2020 10:09:23 pm: SUCCEEDED INSERT INTO Cars VALUES (101,'Wollongong','Ford','2009','Automatic','NSW');
+05/30/2020 10:11:09 pm: SUCCEEDED UPDATE Cars SET City ='Newcastle', Make ='Honda',Year ='2002',Transmission='5-Gear Manual',STATE='NSW' WHERE ID=1;
+05/30/2020 10:11:39 pm: FAILED UPDATE: Only numbers allowed 
+05/30/2020 10:12:19 pm: FAILED DELETE: Only numbers allowed for ID 
+05/30/2020 10:12:32 pm: SUCCEEDED DELETE FROM Cars WHERE ID =101;
+05/31/2020 06:19:35 pm: FAILED INSERT: City name is required Make year is required Transmission type is required 
+05/31/2020 06:19:38 pm: FAILED UPDATE: ID is required City name is required Make year is required Transmission type is required 
+05/31/2020 06:19:38 pm: FAILED DELETE: ID is required 
+05/31/2020 06:19:49 pm: SUCCEEDED UPDATE Cars SET City ='Newcastle', Make ='Mazda',Year ='2002',Transmission='5-Gear Manual',STATE='NSW' WHERE ID=1;
+06/05/2020 01:18:25 pm: FAILED INSERT: City does not exist in given state Make year is required Transmission type is required 
+06/05/2020 01:19:02 pm: FAILED INSERT: City does not exist in given state Year has to be between 2000 - 2020 Transmission type is required 
+06/05/2020 01:19:50 pm: FAILED INSERT: City does not exist in given state Year has to be between 2000 - 2020 
+06/05/2020 01:21:10 pm: SUCCEEDED INSERT INTO Cars VALUES (101,'Wollongong','Ford','2000','Automatic','NSW');
+06/05/2020 01:21:32 pm: FAILED UPDATE: Only letters and white space allowed 
+06/05/2020 01:21:46 pm: FAILED UPDATE: City does not exist in given state 
+06/05/2020 01:22:01 pm: SUCCEEDED DELETE FROM Cars WHERE ID =1;
+06/05/2020 01:25:16 pm: SUCCEEDED INSERT INTO Cars VALUES (102,'qqq','Ford','2000','Automatic','NSW');
